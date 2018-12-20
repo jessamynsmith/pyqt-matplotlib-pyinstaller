@@ -2,9 +2,6 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QSizePolicy, QPushButton
 
-import matplotlib as mpl
-mpl.rcParams['backend'] = 'Qt5Agg'
-
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 

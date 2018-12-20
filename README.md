@@ -11,7 +11,7 @@ Fork the project on github and git clone your fork, e.g.:
 
     git clone https://github.com/<username>/pyqt-matplotlib-pyinstaller.git
 
-Create a virtualenv using Python 3 and install dependencies. I recommend getting python3 using a package manager (homebrew on OSX).
+Create a virtualenv using Python 3.7 and install dependencies. I recommend getting python3 using a package manager (homebrew on OSX).
 
     python3 -m venv pyqt-matplotlib-pyinstaller
     pip install -r requirements.txt
@@ -23,5 +23,9 @@ Run the application:
 Create an executable using pyinstaller:
 
     pyinstaller app.py
+    
+Or to create a single-file app:
+
+    pyinstaller -F app.py
     
 Navigate to the dist directory to run the application.
